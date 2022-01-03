@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicosn-1.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header" id="home">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+          <h1>Mateus <span>Gomes</span> Barros</h1>
+        </div>
+
+        <div class="menu">
+          <div class="top-nav">
+            <div class="logo">
+              <h1>Mateus <span>Gomes</span> Barros</h1>
+            </div>
+
+
+
+            <div class="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link scroll-link">Inicio</a>
+              <a href="#about" class="nav-link scroll-link">Sobre</a>
+              <a href="#services" class="nav-link scroll-link">Meus Trabalhos</a>
+              <a href="#skills" class="nav-link scroll-link">Skills</a>
+              <a href="#blog" class="nav-link scroll-link">Mais Projetos</a>
+              <a href="#teams" class="nav-link scroll-link">Projetos</a>
+              <a href="#contact" class="nav-link scroll-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- Header Image  -->
+    <img src="./imagens/banner.png" alt="" />
+
+    <!-- Hero  -->
+    <div class="hero">
+      <h3>Olá, meu nome é</h3>
+      <h1>Mateus Gomes Barros</h1>
+      <h4>Eu sou <span id="type1" class="typeit"></span></h4>
+      <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5598999836351">whatsapp</a>
+    </div>
+
+    <div class="icons">
+      <span><a href="https://www.linkedin.com/in/mateus-gomes-barros-b90863206/"><i class="fab fa-linkedin" ></i></a></span>
+      <span><a href="https://github.com/mateus-gomes-barros"><i class="fab fa-github"></i></a></span>
+      
+    </div>
+
+    <!-- color  -->
+
+    <div class="control">
+      <div class="widget">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <div class="colors">
+        <span data-id="#0044ff"></span>
+        <span data-id="#ff4600"></span>
+        <span data-id="#ce00ff"></span>
+        <span data-id="#03ffc7"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main  -->
+
+  <section class="section about" id="about">
+    <div class="title">
+      <h1>Sobre Mim</h1>
+    </div>
+
+    <div class="about-center container">
+      <div class="left" data-aos="fade-right" data-aos-duration="1500">
+        <img src="./imagens/mateus.jpg" alt="" />
+      </div>
+      <div class="right" data-aos="fade-left" data-aos-duration="1500">
+        <h1>Eu sou Mateus, sou <span id="type2"></span></h1>
+        <p>
+            Tenho 22 anos. Sou estudante no curso de Bacharelado interdisciplinar em ciência e
+             tecnologia para seguir a carreira de engenharia da computação na UFMA. Fui Bolsista no programa INOVA MARANHÃO, na trilha de programação.
+        </p>
+        <a href="imagens/curriculo.pdf" download="curriculo.pdf" type="application/pdf" class="btn">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services  -->
+  <section class="section theme" id="services">
+    <div class="title">
+      <h1>Meus Trabalhos</h1>
+    </div>
+
+    <div class="services-center container">
+      <div class="service" data-aos="fade-right" data-aos-duration="1500">
+        <span><i class="fab fa-figma"></i></span>
+        <h2>Web Design</h2>
+        <p>
+          Trabalhos com design web com figma, para criar desde o início do site, pensando desde as cores a acessibilidade.
+        </p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-aos-duration="1500">
+        <span><i class="fas fa-chart-line"></i></span>
+        <h2>Front-End</h2>
+        <p>
+          Utilizando o html, css e javascript para concretizar ideias e desenvolvê-las de forma semântica e utilizando boas práticas.
+        </p>
+      </div>
+      <div class="service" data-aos="fade-left" data-aos-duration="1500">
+        <span><i class="fas fa-ruler"></i></span>
+        <h2>Design Thinking</h2>
+        <p>
+          Pensando na resolução de problemas. Combinando empatia, criatividade e racionalidade para atender as necessidades do usuário e criar soluções bem sucedidas e de forma inovadora.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Skills  -->
+  <section class="section skills" id="skills">
+    <div class="title">
+      <h1>Skills</h1>
+    </div>
+
+    <div class="skills-center container">
+      <div class="skills-left">
+        <div class="skills-box">
+          <h4>HTML</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar html"></div>
+            <span>95%</span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h4>CSS</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar css"></div>
+            <span>90%</span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h4>JAVASCRIPT</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar javascript"></div>
+            <span>75%</span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h4>Figma</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar nodejs"></div>
+            <span>90%</span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h4>github</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar mongodb"></div>
+            <span>90%</span>
+          </div>
+        </div>
+      </div>
+      <div class="skills-box">
+        <h4>PHP</h4>
+        <div class="skills-ilt">
+          <div class="skills-bar javascript"></div>
+          <span>75%</span>
+        </div>
+      </div>
+    </div>
+
+      <div class="right">
+        <h3>Minhas Experiências</h3>
+        <p>
+          Embarquei recentemente no mundo da programação e venho me aperfeiçoando cada vez mais nesse universo. Nos ultimos meses estive aprimorando minhas skills nesses 5 segmentos, para uma boa base no front-end. Meu objetivo é aprender mais linguagens de programação.
+        </p>
+        <a href="#blog" class="btn">Mais Projetos</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teams  -->
+
+  <section class="section theme" id="teams">
+    <div class="title">
+      <h1>Meus Projetos</h1>
+    </div>
+
+    <div class="teams-center container">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="team">
+                <div class="img-cover">
+                  <img src="./imagens/chuva.JPG" alt="" />
+                </div>
+
+                <h3>Chuva Inc.</h3>
+                <p>
+                  Site criado para analisar possíveis clientes para uma empresa que oferece trabalhos como organizadora 
+                  de eventos acadêmicos. O intuito era analisar perfis de possiveis clientes que queria fazer orçamento.
+                </p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="team">
+                <div class="img-cover">
+                  <img src="./imagens/memoria.JPG" alt="" />
+                </div>
+
+                <h3>Jogo da memória</h3>
+                <p>
+                  Jogo da memória com personagens importantes para a computação. O objetivo é o jogador encontrar a 
+                  carta que contenha o fato historico do personagem. São 8 cartas, 4 com fatos historicos e 4 com imagens dos personagens.
+                </p>
+              </div>
+            </li>
+
+
+            <li class="glide__slide">
+              <div class="team">
+                <div class="img-cover">
+                  <img src="./imagens/ong.JPG" alt="" />
+                </div>
+
+                <h3>Site para ONG</h3>
+                <p>
+                  O intuito desse site era expor trabalhos e movimentos feitos pela ong (Slz invisível) a qual alimentaria o site com 
+                  imagens e causas que eles defendiam. Usar como meio de trazer público online para conhecer eles.
+                </p>
+              </div>
+            </li>
+
+
+            <li class="glide__slide">
+              <div class="team">
+                <div class="img-cover">
+                  <img src="./imagens/slz.JPG" alt="" />
+                </div>
+
+                <h3>Site sobre São Luís</h3>
+                <p>
+                  Site construído para turistas que têm intenção de conhecer São luís, mas não sabem sobre pontos turisticos,
+                   pratos típicos, história e eventos. Além do site conter informações sobre avanço da vacinação, lá os interessados terão 
+                   informações completas sobre o Maranhão e suas belezas.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog  -->
+
+
+  <section class="section blog" id="blog">
+    <div class="title">
+      <h1>Mais Projetos</h1>
+    </div>
+
+    <div class="blog-center container" data-aos="fade-up" data-aos-duration="1500">
+      <div class="blog-box">
+        <div class="image-container">
+          <img src="./imagens/cadastro.JPG" alt="" />
+        </div>
+        <div class="content">
+          <h4>Cadastro / On</h4>
+          <p>
+            Site criado com html e php para simular cadastro de usuários. Com tela de login e cadastro.
+          </p>
+          <a href="Read More"></a>
+        </div>
+      </div>
+
+      
+      <div class="blog-box">
+        <div class="image-container">
+          <img src="./imagens/calculadora.JPG" alt="" />
+        </div>
+        <div class="content">
+          <h4>Calculator</h4>
+          <p>
+            Calculaddora simples, utilizando Html, css e javascript.
+          </p>
+          <a href="Read More"></a>
+        </div>
+      </div>
+
+      <div class="blog-box">
+        <div class="image-container">
+          <img src="./imagens/log.JPG" alt="" />
+        </div>
+        <div class="content">
+          <h4>Log in Interativo</h4>
+          <p>
+            Tela de log in interativa e minimalista (tecnologias usadas: html, css e javascript)
+          </p>
+          <a href="Read More"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact form  -->
+
+  <section class="section contact" id="contact">
+    <div class="title">
+      <h1>Entre em contato</h1>
+    </div>
+
+    <div class="contact-center container">
+      <div class="left" data-aos="fade-dowm" data-aos-duration="1500">
+        <h2>Contato</h2>
+        <p>
+          Sugestões, críticas, ajuda...
+        </p>
+        <div>
+          <span class="icon"><i class="fas fa-user"></i></span>
+          <span class="content">
+            <h3>Name</h3>
+            <span>Mateus Gomes Barros</span>
+          </span>
+        </div>
+
+        <div>
+          <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+          <span class="content">
+            <h3>Endereço</h3>
+            <span>Brasil</span>
+          </span>
+        </div>
+
+        <div>
+          <span class="icon"><i class="fas fa-envelope"></i></span>
+          <span class="content">
+            <h3>Email</h3>
+            <span>mateusgomesbarros2@gmail.com</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="right" data-aos="fade-up" data-aos-duration="1500">
+        <form action="https://formsubmit.co/mateusgomesbarros2@gmail.com" method="POST" class="form">
+          <h2>Fale comigo</h2>
+          <div>
+            <input type="text" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+          </div>
+
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Your message">
+            </textarea>
+          <button type="submit" class="btn btn-form">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por <span>Mateus</span> | &copy; 2021 All rights reserved</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scripts -->
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- TypeIt -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+  <!-- Glidejs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <!-- Custom Script -->
+  <script src="index.js"></script>
+
+
+</body>
+
+</html>

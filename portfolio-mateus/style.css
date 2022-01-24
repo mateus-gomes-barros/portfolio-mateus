@@ -560,7 +560,7 @@ a.btn:active,
 }
 
 .skills-box .html {
-  width: 95%;
+  width: 100%;
 }
 
 .skills-box .nodejs {
@@ -568,15 +568,15 @@ a.btn:active,
 }
 
 .skills-box .css {
-  width: 90%;
+  width: 100%;
 }
 
 .skills-box .javascript {
-  width: 75%;
+  width: 100%;
 }
 
 .skills-box .mongodb {
-  width: 90%;
+  width: 100%;
 }
 
 .skills-box span {
